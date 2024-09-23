@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'PTSans';
-    src: url('PTSans-Bold.eot');
-    src: url('PTSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('PTSans-Bold.woff') format('woff'),
-        url('PTSans-Bold.svg#PTSans-Bold') format('svg');
+    src: url('PTSansBold.eot');
+      src: url('PTSansBold.eot?#iefix') format('embedded-opentype'),
+        url('PTSansBold.woff') format('woff'),
+        url('PTSansBold.svg#PTSansBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }

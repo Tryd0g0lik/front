@@ -1,89 +1,64 @@
 
 @font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../font/roboto/Roboto-Bold.eot');
+    font-family: 'RobotoBold';
+      src: url('../font/roboto/Roboto-Bold.eot');
       src: url('../font/roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
         url('../font/roboto/Roboto-Bold.woff') format('woff'),
-        url('../font/roboto/Roboto-Bold.svg#Roboto-Bold') format('svg');
+        url('../font/roboto/Roboto-Bold.svg#RobotoBold') format('svg');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Italic';
-    src: url('../font/roboto/Roboto-Italic.eot');
+    font-family: 'RobotoItalic';
+      src: url('../font/roboto/Roboto-Italic.eot');
       src: url('../font/roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
         url('../font/roboto/Roboto-Italic.woff') format('woff'),
-        url('../font/roboto/Roboto-Italic.svg#Roboto-Italic') format('svg');
+        url('../font/roboto/Roboto-Italic.svg#RobotoItalic') format('svg');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../font/roboto/Roboto-Regular.eot');
+    font-family: 'RobotoRegular';
+      src: url('../font/roboto/Roboto-Regular.eot');
       src: url('../font/roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
         url('../font/roboto/Roboto-Regular.woff') format('woff'),
-        url('../font/roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+        url('../font/roboto/Roboto-Regular.svg#RobotoRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Light';
-    src: url('../font/roboto/Roboto-Light.eot');
+    font-family: 'RobotoLight';
+      src: url('../font/roboto/Roboto-Light.eot');
       src: url('../font/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
         url('../font/roboto/Roboto-Light.woff') format('woff'),
-        url('../font/roboto/Roboto-Light.svg#Roboto-Light') format('svg');
+        url('../font/roboto/Roboto-Light.svg#RobotoLight') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'Roboto-Black';
-    src: url('../font/fontRoboto-Black.eot');
+    font-family: 'RobotoBlack';
+      src: url('../font/roboto/Roboto-Black.eot');
       src: url('../font/roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
         url('../font/roboto/Roboto-Black.woff') format('woff'),
-        url('../font/roboto/Roboto-Black.svg#Roboto-Black') format('svg');
+        url('../font/roboto/Roboto-Black.svg#RobotoBlack') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Roboto-Medium';
-    src: url('../font/roboto/Roboto-Medium.eot');
-      src: url('../font/roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../font/roboto/Roboto-Medium.woff') format('woff'),
-        url('../font/roboto/Roboto-Medium.svg#Roboto-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'PTSans-Bold';
-    src: url('../font/ptsans/PTSans-Bold.eot');
-      src: url('../font/ptsans/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../font/ptsans/PTSans-Bold.woff') format('woff'),
-        url('../font/ptsans/PTSans-Bold.svg#PTSans-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'MyriadPro-Bold';
-    src: url('../font/MyriadPro/MyriadPro-Bold.eot');
-      src: url('../font/MyriadPro/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../font/MyriadPro/MyriadPro-Bold.woff') format('woff'),
-        url('../font/MyriadPro/MyriadPro-Bold.ttf') format('truetype'),
-        url('../font/MyriadPro/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
 
 
 
 
 a{cursor:pointer;}
-a, .aside .bonus ul li  h5 {font-family:Roboto-Bold;}
+a,
+.aside .bonus ul li h5 {
+  font-family: RobotoBold;
+}
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -150,7 +125,10 @@ cursor:pointer;
 
 }
 
-#top-left #selectItem option, .aside .bonus ul li span {font-family: Roboto-Regular;}
+#top-left #selectItem option,
+.aside .bonus ul li span {
+  font-family: RobotoRegular;
+}
 #top-left #selectItem option {
   font-size: 14px;
   color: #fff;
@@ -185,7 +163,10 @@ cursor:pointer;
   background-image: url("../img/whatsapp.png");
   background-repeat: no-repeat;
 }
-#top-left .wh span, .bottom-left .wh span{font-family:Roboto-Bold;}
+#top-left .wh span,
+.bottom-left .wh span {
+  font-family: RobotoBold;
+}
 
 #top-left .wh a{width:14px; height:14px; vertical-align:middle; height:14px; width:14px; display:block; float:left; margin-top:2px;}
 #top-left .wh #call,
@@ -213,7 +194,7 @@ cursor:pointer;
   padding-left: 17px;
   padding-left: 23px;
   color: #fff;
-  font-family: Roboto-Regular;
+  font-family: RobotoRegular;
   font-size: 14px;
   margin-left: 4.7%;
   margin: -top;
@@ -263,13 +244,18 @@ cursor:pointer;
   background-image: url("../img/up.png");
   background-repeat: no-repeat;
   background-position: right;
-  font-family: Roboto-Black;
+  font-family: RobotoBlack;
   font-size: 18px;
   color: #fff;
 }
 /* #lang #lang {display:block; } */
 #lang .selectItem .selectItem-lang{color:#ff0c00;}
-#lang .selectItem, .other ul li span:nth-child(2){font-family:Roboto-Black; font-size:18px; color:#fff; -ms-appearance: none;
+#lang .selectItem,
+.other ul li span:nth-child(2) {
+  font-family: RobotoBlack;
+  font-size: 18px;
+  color: #fff;
+  -ms-appearance: none;
   }
 
 /* ----------------- topnav ----------------- */
@@ -316,7 +302,11 @@ cursor:pointer;
 	.topnav nav ul li.sub-menu:hover .submenu, .topnav nav ul li.sub-menu .submenu:hover, .topnav nav ul li.sub-menu .sub-menu li:hover, topnav nav ul li.sub-menu .sub-menu li a:hover {display:block; z-index:10000000000000000000;}
 
 
- 	.topnav nav ul li a{font-family:Roboto-Bold; color:#fff; text-decoration: none; }
+       	.topnav nav ul li a {
+       	  font-family: RobotoBold;
+       	  color: #fff;
+       	  text-decoration: none;
+       	}
 	.topnav nav ul li:hover a, .topnav nav ul li a:hover{color:#ff0c00;}
 .topnav nav ul li .submenu li,
 .topnav nav ul li .submenu li {
@@ -325,7 +315,13 @@ cursor:pointer;
   padding-bottom: 0;
 }
 	#top-left #selectItem option.selectItem-sity, .topnav nav ul li .submenu li{ padding-left: 16px;}
-	#top-left #selectItem option.selectItem-sity,  .topnav nav ul li .submenu a{font-family:Roboto-Light; font-size:12px; color:#000000; cursor:pointer;}
+  	#top-left #selectItem option.selectItem-sity,
+  	.topnav nav ul li .submenu a {
+  	  font-family: RobotoLight;
+  	  font-size: 12px;
+  	  color: #000000;
+  	  cursor: pointer;
+  	}
 	#top-left #selectItem option.selectItem-sity:hover, .topnav nav ul li .submenu a:hover{color:#ec2b22;}
 	#top-left option:hover{background-color:none; display:block;}
 /* ----------------- search ----------------- */
@@ -347,11 +343,23 @@ cursor:pointer;
 }
 /* ----------------- title ----------------- */
 .topnav +.title  {width:100%; max-width:1277px; margin:0 auto; color:#fff; margin-top: 135px; text-align: center;}
-.title hgroup h1 {text-transform:uppercase; font-family:PTSans-Bold; font-size:48px;}
+.title hgroup h1 {
+  text-transform: uppercase;
+  font-family: PTSansBold;
+  font-size: 48px;
+}
 .title hgroup h2 {line-height:1;}
-.title hgroup h2{font-family:MyriadPro-Bold; font-size:42px;  margin-top: 22px; text-transform:inherit;}
+.title hgroup h2 {
+  font-family: MyriadProBold;
+  font-size: 42px;
+  margin-top: 22px;
+  text-transform: inherit;
+}
 .title hgroup h2+h2{ margin-top: 0px;}
-.title hgroup h2+div a{font-family:Roboto-Regular; font-size:16px;}
+.title hgroup h2+div a {
+  font-family: RobotoRegular;
+  font-size: 16px;
+}
 
 	.title div{margin: 103px auto 0 auto; clear: both; float: none; height: 49px; width: 293px;}
 	.title div a, .aside .bonus ul +a, .question+a {clear: both; float: none; height: 49px; width: 293px; height: 33px; background-color: #ff0c00; color: #fff; display: block; margin: 0; padding-top: 16px; text-decoration: none;}
@@ -369,7 +377,17 @@ cursor:pointer;
 .content #menu ul.menu li{display:table-cell;  margin:0; min-width:157px; width: 12.648%;  text-align:center;}
 
 
-.content #menu ul.menu li a{ font-family:Roboto-Regular; color:#fff;     text-transform: uppercase; height: 30px; display: inline-block; padding-left: 43px; padding-top: 3px; text-align: center; margin:0 4.55%;}
+.content #menu ul.menu li a {
+  font-family: RobotoRegular;
+  color: #fff;
+  text-transform: uppercase;
+  height: 30px;
+  display: inline-block;
+  padding-left: 43px;
+  padding-top: 3px;
+  text-align: center;
+  margin: 0 4.55%;
+}
 .content #menu ul.menu li a:hover{color:#ff0c00;}
 .content #menu ul.menu li:last-of-type a{ padding-left: 53px;}
 
@@ -449,7 +467,12 @@ cursor:pointer;
 }
 .work>div{ width:100%; max-width:1277px; margin:0 auto;}
 .work  h2, .work  h2+ul{color:#fff; text-align:center;}
-.work  h2{ text-transform: uppercase; font-family:PTSans-Bold; font-size:30px; padding-top: 102px;}
+.work h2 {
+  text-transform: uppercase;
+  font-family: PTSansBold;
+  font-size: 30px;
+  padding-top: 102px;
+}
 
 .work  ul {    display: block; margin-top: 173px; width:100%; max-width: 1205px; height: 250px; margin: 0 auto;}
 .work  ul li, .aside .bonus ul li{display:block; float:left;}
@@ -483,7 +506,21 @@ cursor:pointer;
 }
 .work ul li, .work ul li:hover{background-size:auto; background-position:50% 0%;     vertical-align: top;}
 
-.work ul li h3+a, .figcaption h3+div+a, .news time{ display:none; margin-top: 43px; width: 155px; margin-left: auto; margin-right: auto; background-color: #ff0c00; height: 33px; padding-top: 13px; color: #fff; text-decoration: none; font-family:Roboto-Regular;}
+.work ul li h3+a,
+.figcaption h3+div+a,
+.news time {
+  display: none;
+  margin-top: 43px;
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff0c00;
+  height: 33px;
+  padding-top: 13px;
+  color: #fff;
+  text-decoration: none;
+  font-family: RobotoRegular;
+}
 .work  ul li:hover h3+a{display:block;}
 
 .content img{width:59.046%; height: auto;}
@@ -492,10 +529,25 @@ cursor:pointer;
 .work+div figure{margin-top: 78px;}
 	div.figcaption{position: absolute; width: 53.71%; top: 83px; border: 0; box-shadow: 0px 3px 10px #666; left: 36.5%; min-width: 300px; max-width: 685.875px; padding-top: 63px; padding-left: 9.074%; background: #fff;     z-index: 10000000000000000; }
 .figcaption h3, .other h2, .other span, .other h2, .aside h2, #utp h2, .maps div:first-of-type h2 {text-transform:uppercase; margin-bottom:32px;}
-.figcaption h3, .figcaption h3+div, .other h2, .aside h2, #utp h2, .confidence h2, .maps div:first-of-type h2{font-family:PTSans-Bold; font-size:30px; color:#000; text-transform:uppercase;}
+.figcaption h3,
+.figcaption h3+div,
+.other h2,
+.aside h2,
+#utp h2,
+.confidence h2,
+.maps div:first-of-type h2 {
+  font-family: PTSansBold;
+  font-size: 30px;
+  color: #000;
+  text-transform: uppercase;
+}
 h1, h2, h3, h4, h5, h6{text-transform:uppercase;}
 .figcaption h3+div{width:90.93%;}
-.figcaption h3+div, .other span {font-family:Roboto-Regular; font-size:18px;}
+.figcaption h3+div,
+.other span {
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
 .figcaption h3+div p{    margin-bottom: 19px; line-height: 1.6; letter-spacing: 1.5px; text-transform:none;}
 .figcaption h3+div+a{display:block; margin: 0; padding-left: 35px; width: 121px; margin-left: 3px; margin-bottom: 38px; box-shadow: 0 1px 1px 5px #666; box-shadow:0 1px 6px #666;}
 
@@ -620,7 +672,15 @@ div.other ol .n01 {
 
 
 
-.aside .bonus ul li span.number{text-align: right; font-family: PTSans-Bold; font-size: 18px; display: block; float: right; color:#636363; margin-right:14px;}
+.aside .bonus ul li span.number {
+  text-align: right;
+  font-family: PTSansBold;
+  font-size: 18px;
+  display: block;
+  float: right;
+  color: #636363;
+  margin-right: 14px;
+}
 .aside .bonus ul li:hover span.number{color:#fff;}
 .aside .bonus ul li  h5, .aside .bonus ul li span {font-size:18px;}
 .aside .bonus ul li.n04 span:last-of-type{color:#ff0c00; display:block; clear:both;}
@@ -766,7 +826,7 @@ div.other ol .n01 {
   margin-left: 9.166666666%;
   padding-left: 40px;
   text-transform: uppercase;
-  font-family: Roboto-Bold;
+  font-family: RobotoBold;
   font-size: 18px;
   color: #000;
   height: 23px;
@@ -817,7 +877,11 @@ div.other ol .n01 {
 
 .question {clear:both; width:54.4%; max-width:695px;
     margin-left: 6.34299%;     float: left; }
-	.question p{font-family:PTSans-Bold; color:#fff; font-size:24px; }
+                                                                                                                              	.question p {
+                                                                                                                              	  font-family: PTSansBold;
+                                                                                                                              	  color: #fff;
+                                                                                                                              	  font-size: 24px;
+                                                                                                                              	}
 .question+a{text-align:center;     width: 291px; clear: none; float: right; height: 41px; margin-right: 7.866%;}
 
 /* ----------------- bottom ----------------- */
