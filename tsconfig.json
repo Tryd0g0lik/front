@@ -1,0 +1,49 @@
+// https://www.typescriptlang.org/tsconfig
+{
+  "compilerOptions": {
+    // "jsx": "react-jsx",
+    "noImplicitAny": true,
+    "module": "ES6",
+    "target": "ES2020",
+    "rootDirs": [
+      "./src",
+    ],
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "strictNullChecks": true,
+    // "noImplicitReturns": true,
+    // "noUnusedLocals": false,
+    // "allowSyntheticDefaultImports": true,
+    // "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // "noImplicitAny": true,
+    // "": false,
+    // "skipLibCheck": true,
+    // "allowImportingTsExtensions": true,
+    // "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+    //   "@Interfaces": [
+    //     "moneys/src/interfaces.ts"
+    //   ],
+    //   "@Services/*": [
+    //     "moneys/src/scripts/services/*"
+    //   ]
+    }
+  },
+  "exclude": [
+    "*/node_modules/**/*.js",
+    "*/*.js",
+    "**/dist",
+    "*/**/*.json",
+    "node_modules",
+  ],
+  "include": [
+    "./src/**/*",
+  ]
+}
