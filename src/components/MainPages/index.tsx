@@ -1,5 +1,6 @@
 import React from 'react';
 import { HeadFC } from '../parts/Header';
+import { FooterFC } from '../parts/Footer';
 
 export function PagesFC(): React.JSX.Element {
   return (<>
@@ -13,6 +14,7 @@ export function PagesFC(): React.JSX.Element {
     <div className="aside">
     </div>
     <footer className="footer">
+      < FooterFC />
     </footer>
   </>);
 }
