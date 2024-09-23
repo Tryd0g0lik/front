@@ -40,6 +40,29 @@ module.exports = {
 
       },
       {
+        test: /\.html$/i,
+        loader: 'html-loader'
+      },
+      {
+        test: /\.(eot|svg|png|jpg|gif)$/i,
+        type: 'asset/resource',
+        generator: {
+          filename: 'pic/[name][ext]'
+        }
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]', // Output filename format
+              outputPath: 'fonts/', // Output directory for fonts
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/,
         use: [
           MiniCssExtractPlugin.loader,
@@ -62,10 +85,14 @@ module.exports = {
       filename: 'webpack-stats.json'
     }),
 
-    // new SpriteLoaderPlugin(), // svg
+    new SpriteLoaderPlugin(), // svg
 
     new HtmlWebpackPlugin({
-      template: './src/public/index.html'
+      template: './src/public/index.html',
+      minify: {
+        // exclude the minification
+        collapseWhitespace: false
+      }
     }),
     new webpack.SourceMapDevToolPlugin({
       test: /\.tsx?$/,
@@ -79,7 +106,7 @@ module.exports = {
     }),
 
     new MiniCssExtractPlugin({
-      filename: 'styles/style.css'
+      filename: 'styles/[name].css'
     }),
   ],
   watchOptions: {

@@ -1,8 +1,8 @@
 @media screen and (max-width: 1260px) {
-	
+
 	.topnav nav ul li{margin:0px 1% 18px 1%;}
 	.search{min-width: 50px; width: 8.497%; max-width: 110px;}
-	
+
 }
 
 
@@ -16,38 +16,48 @@
 	.topnav .logo {margin-top: 10px;}
 	.topnav > nav > ul > li { margin-bottom: 5px; padding-bottom: 5px;}
 	.topnav .search {margin-top: 12px;}
-	
+
 	#top .top-menu > div:nth-child(2){text-align: left;}
 	#top .top-menu > div:nth-child(2) > div.mail{ min-width: 202px; display: inline-block;}
-	#top .top-menu > div:nth-child(2) > div.mail a {background: none;padding-left: 0;margin-top: 9px;}
-	
-	/* Top title */ 
+	#top .top-menu>div:nth-child(2)>div.mail a {
+		background: none;
+		padding-left: 0;
+		margin-top: 9px;
+	}
+
+      	/* Top title */
 	.topnav +.title {margin-top: 30px;}
 
-	/* The work content */ 
+              	/* The work content */
 	.content .work {display: inline-block;/* padding-bottom: 20%; */}
-    .content .work hgroup {/* text-align: center; */}
+	.content .work hgroup {
+		/* text-align: center; */
+	}
 
-    .work, .work > ul {height:auto;}
+	.work,
+	.work>ul {
+		height: auto;
+	}
 	.work >hgroup > h2 { padding-top: 5%;}
 	.work >hgroup > ul {text-align: center;display: inline-block;/* width: 90%; */}
 	.work >hgroup > ul > li{margin-top: 10%;height: 332px;float: none;clear: both;display: inline-block;}
-	
+
 
 
 	/* About company */
 	.content > *, .content #kompaniya {margin-bottom: 0;margin-top: 0;}
-	.content #kompaniya {}
 	#kompaniya > .kompaniya > img:first-child{display: none;}
 	#kompaniya div.figcaption{position: relative; padding: 0 10px; margin: 0 10px;top: 0; left: 24%; padding-bottom: 5px;}
-    #kompaniya div.figcaption > a { margin: 0 auto; }
-    
-    /* The aside */
-    .aside{ padding-top: 5%;}
-    .aside h2 { margin-bottom: 5%; }    
+	#kompaniya div.figcaption > a { margin: 0 auto; }
+
+	/* The aside */
+	.aside{ padding-top: 5%;}
+	.aside h2 {
+		margin-bottom: 5%;
+	}
 
 
-    
+
 	/*other */
 	div.other {height: inherit;display: inline-block;}
 	div.other h2,  #utp h2 {padding-top: 30px;font-size: 2.142857em;}
@@ -55,18 +65,18 @@
 	.other ol li{width:39.0637%;}
 	.other div:first-of-type ol li:nth-child(4){width:32.963%;}
 	.other div:first-of-type ol li:nth-child(2){width:32.963%;}
-	
+
 	/* The footer maps */
 	.footer .maps div.text-maps{max-height: none;width: revert;}
 
 	.maps div p {columns: 194px 2;width: inherit;}
-    .maps div#maps { min-width: 300px; width: auto;}
+	.maps div#maps { min-width: 300px; width: auto;}
 }
 
 
 
 
-	
+
 @media screen and (max-width: 1055px) {
     #top .top-menu #top-right{min-width:290px;}
 
@@ -82,13 +92,18 @@
 @media screen and (max-width: 948px) {
 	.question+a{margin-right: 1.78675%;	}
 	.question {margin-left: 6.34299%;  }
-    .other ol .n04, .other ol .n02{margin-left:1%}	
-	
+	.other ol .n04,
+	.other ol .n02 {
+		margin-left: 1%
+	}
 }
 
 @media screen and (max-width: 870px) {
 	#top .top-menu #top-right{min-width:227px;}
-	#top-left .wh #call, #top-left .wh #wh{display:none;}	
+	#top-left .wh #call,
+	#top-left .wh #wh {
+		display: none;
+	}
 	#soc { display:none;}
 
 	.other ol li{    padding-left: 72px;}
@@ -96,50 +111,77 @@
 
 }
 
- 
+
 @media screen and (max-width: 867px) {
 	.maps div#maps{ min-width: 300px; width: auto;}
 	.topnav nav{width:54.294%;}
-	
-	
-	
+
 }
 
 @media screen and (max-width: 795px) {
 	.question {width:46.398%;}
-	
+
 	/* top manu */
 	.topnav{display:inline-block;text-align: center;}
-    
-    /* Top title */
-    .title{}
 
-    .title hgroup> * {padding-left:5px;}
-    .title hgroup> h2 { text-align: left; font-size: 2em;}
-    .title hgroup> h2:nth-child(3) { margin-top: 10px;} 
-    
-    .topnav> div.logo, .topnav> nav, .topnav > div.search {margin-left: 5px;float: none;display: inline-block;vertical-align: top;margin-top: 10px;}
+	.title hgroup>* {
+		padding-left: 5px;
+	}
+
+	.title hgroup>h2 {
+		text-align: left;
+		font-size: 2em;
+	}
+	.title hgroup>h2:nth-child(3) {
+		margin-top: 10px;
+	}
+
+	.topnav>div.logo,
+	.topnav>nav,
+	.topnav>div.search {
+		margin-left: 5px;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 10px;
+	}
 	#top .top-menu #top-left + div {min-width:173px;}
 /* 	#top .top-menu #top-left{min-width:266px;} */
 	#top-left + div a{background-image:none; margin-left:0; padding-left:5px;}
-	
+
 	#top .top-menu #top-right{min-width:197px;}
 	.topnav nav{width:53.294%;}
 	.topnav +.title > div{ height: inherit; margin-top: 10px;}
 	.content #menu {padding-top:5px;	}
 	.content #menu ul.menu {display:inline-block;text-align:center;width: inherit;}
-	.content #menu ul.menu li{min-width:110px;display:inline-block;float: none;}	
+	.content #menu ul.menu li {
+		min-width: 110px;
+		display: inline-block;
+		float: none;
+	}
 	.content #menu ul.menu li a, .content #menu ul.menu li:last-of-type a{padding-left:0;}
 	.menu li a.time, .menu li a.p, .menu li a.star, .menu li a.shield, .menu li a.skidka, .menu li a.time:hover, .menu li a.p:hover, .menu li a.star:hover, .menu li a.shield:hover, .menu li a.skidka:hover{background:none;}
-	
+
 	.other, #utp{min-width:inherit;}
-	.other ol li.n01, .other ol li.n02, .other ol li.n03, .other ol li.n04{background-image:none; border-left: 1px solid ##ff0c00; padding-left:7.8457%;}
+	.other ol li.n01,
+	.other ol li.n02,
+	.other ol li.n03,
+	.other ol li.n04 {
+		background-image: none;
+		border-left: 1px solid #ff0c00;
+		padding-left: 7.8457%;
+	}
 	.aside .bonus>div{    min-width: inherit;}
 
-    .aside .bonus ul { min-width: inherit; width: inherit; text-align: center; display: inline-block; height: inherit;}
+	.aside .bonus ul {
+		min-width: inherit;
+		width: inherit;
+		text-align: center;
+		display: inline-block;
+		height: inherit;
+	}
 	.aside .bonus ul li{width:265px;padding-left:4px;padding-right:4px;text-align: center;float: none;display: inline-block;}
-	
-    
+
     /* About company */
     #kompaniya div.figcaption{width:inherit;left: auto;}
     /* Our trusted */
@@ -149,31 +191,39 @@
 }
     .confidence > ul {display:inline-block;text-align:center;min-width: 147px;width: auto;float: none;}
     .confidence ul li {float:none;text-align:center;margin: 5% auto;}
-    
+
     /* Our trustes */
-    
+
 
     /* Our advantagas */
 	#utp > ul {display: inline-block;width: 100%;height: auto;text-align: center;}
-	#utp > ul > li {width: auto;margin: 5% 3%;display: inline-block;float: inherit;}
+	#utp>ul>li {
+		width: auto;
+		margin: 5% 3%;
+		display: inline-block;
+		float: inherit;
+	}
 }
 
-@media screen and (max-width: 783px){
-	.footer{}
+@media screen and (max-width: 783px) {
 	.maps{ height:auto; padding-bottom: 5%; display: inline-block; }
 	.maps div#maps {display:none;}
 	.footer .maps div.text-maps {padding-left: 1%;display: inline-block;width: 100%;max-width: none;}
 
-    .footer .maps div.text-maps > h2:first-child { text-align: center;}
+	.footer .maps div.text-maps>h2:first-child {
+		text-align: center;
+	}
 	.maps div p {columns: 0.4em 2; width: inherit;}
-	
+
 }
 
 
 @media screen and (max-width: 765px) {
 	.topnav nav{width:50.294%;}
 	.content img{max-width:59.0446%;}
-	.other ol li{width:40.05376%;}	
+	.other ol li {
+		width: 40.05376%;
+	}
 
 	.work {overflow: hidden;	}
 	.work ul { display: inline-block; height: inherit; }
@@ -185,20 +235,37 @@
     /* The aside news */
     .news {
     padding-top: 5%;
-}
-    .aside .news-block > ul { text-align: center;}
-    .aside .news-block > ul > Li { min-width: 198px; display: inline-block; text-align: left; float: none;}
-    .aside .news-block > ul > Li figure .img-news time {/* position: absolute; */left: 7.53%;right: auto;}
-    .aside .news-block > ul > Li figcaption h3, .aside .news-block > ul > Li figcaption p {text-align: center;margin-left: 0;margin-right: 0;padding: 0 5px;width: inherit;}
-    .aside .news-block > ul > Li figcaption p { text-align: left;}
-    	
-}
+		}
+	.aside .news-block>ul {
+			text-align: center;
+	}
+	.aside .news-block>ul>Li {
+		min-width: 198px;
+		display: inline-block;
+		text-align: left;
+		float: none;
+	}
+	.aside .news-block>ul>Li figure .img-news time {
+	/* position: absolute; */
+	left: 7.53%;
+	right: auto;
+	}
+	.aside .news-block>ul>Li figcaption h3,
+	.aside .news-block>ul>Li figcaption p {
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0 5px;
+		width: inherit;
+	}
 
+	.aside .news-block>ul>Li figcaption p {
+		text-align: left;
+	}
 
-@media screen  (max-width: 500px) {
-	.aside .news-block > ul > Li {}
+}
+@media screen and (max-width: 500px) {
 	.aside .bonus >div >ul {width: inherit; min-height: 944px; text-align: center;}
 	.aside .bonus >div >ul >li { display: inline-block; float: none; clear: both;}
-	
-}
 
+}
