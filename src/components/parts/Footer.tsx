@@ -78,14 +78,14 @@ export function FooterFC(): React.JSX.Element {
       <div className="bottom-right">
         <h5>Способы оплаты</h5>
         <ul>
-          <li><a href="/" className="many"><img src="img/visa.jpg" /></a></li>
-          <li><a href="/" className="many"><img src="/pic/sber-bottom.jpg" /></a></li>
-          <li><a href="/" className="many"><img src="./pic/master-c.jpg" /></a></li>
-          <li><a href="/" className="many"><img src="./pic/YAndex.jpg" /></a></li>
-          <li><a href="/" className="many"><img src="./pic/webmani.jpg" /></a></li>
-          <li><a href="/" className="many"><img src="./pic/qiwi.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="./content/visa.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="/content/sber-bottom.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="./content/master-c.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="./content/YAndex.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="./content/webmani.jpg" /></a></li>
+          <li><a href="/" className="many"><img src="./content/qiwi.jpg" /></a></li>
         </ul>
-        <img src="../pic/komp.jpg" />
+        {/* <img src="../content/komp.jpg" />  */}
       </div>
 
     </div>

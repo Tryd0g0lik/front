@@ -9,7 +9,7 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
 const glob = require('glob');
-// const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 // const htmlFiles = glob.sync('./src/public/*.html').map(file => {
 // const htmlFiles = glob.sync('./src/public/*.{html,}').map(file => {
 //   return new HtmlWebpackPlugin({
@@ -95,7 +95,18 @@ module.exports = {
       path: path.join(__dirname, 'src/bundles'),
       filename: 'webpack-stats.json'
     }),
-
+    new CopyPlugin({
+      patterns: [
+        { from: "src\\components\\parts\\content", to: "content" },
+        { from: "src\\img\\visa.jpg", to: "content" },
+        { from: "src\\img\\sber-bottom.jpg", to: "content" },
+        { from: "src\\img\\master-c.jpg", to: "content" },
+        { from: "src\\img\\YAndex.jpg", to: "content" },
+        { from: "src\\img\\webmani.jpg", to: "content" },
+        { from: "src\\img\\qiwi.jpg", to: "content" },
+        { from: "src\\img\\komp.jpg", to: "content" },
+      ],
+    }),
     new SpriteLoaderPlugin(), // svg
 
     new HtmlWebpackPlugin({

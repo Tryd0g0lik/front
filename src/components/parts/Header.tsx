@@ -16,12 +16,9 @@ export function HeadFC(): React.JSX.Element {
               <option className="selectItem-sity" id="novosibirsk">Новосибирск</option>
             </select>
           </form>
-
-
-
           <div className="wh">
-            {/* <!-- a href="/site/prototype/index.php" id="call"></a> */}
-            {/* <a href="/site/prototype/index.php" id="wh"></a> */}
+            <a href="/" id="call"></a>
+            <a href="/" id="wh"></a>
             <span>8 999 635-03-88</span>
           </div>
         </div>
@@ -33,13 +30,13 @@ export function HeadFC(): React.JSX.Element {
         </div>
         <div id="top-right">
           <div id="brif">
-            {/* <!-- a href="/site/prototype/index.php">Бриф на услуги</a --> */}
+            <a href="/">Бриф на услуги</a>
           </div>
 
           <div id="soc">
-            {/* <!-- a href="/site/prototype/index.php" id="vk"></a> */}
-            {/* <a href="/site/prototype/index.php" id="f"></a>
-      <a href="/site/prototype/index.php" id="ins"></a> */}
+            <a href="/" id="vk"></a>
+            <a href="/" id="f"></a>
+            <a href="/" id="ins"></a>
           </div>
 
           <div id="lang">
@@ -49,10 +46,10 @@ export function HeadFC(): React.JSX.Element {
                 <option className="selectItem-lang" id="us">US</option>
               </select>
             </form>
-            {/* <!--ul>
-      <li><a href="/site/prototype/index.php" id="ru">RU</a></li>
-      <li><a href="/site/prototype/index.php" id="us">US</a></li>
-    </ul --> */}
+            <ul>
+              <li><a href="/" id="ru">RU</a></li>
+              <li><a href="/" id="us">US</a></li>
+            </ul>
           </div >
 
         </div >
@@ -62,8 +59,8 @@ export function HeadFC(): React.JSX.Element {
       <div className="logo"></div>
       <nav>
         <ul className="header-menu">
-          {/* <li><a href="/site/prototype/index.php">О компании</a></li> */}
-          <li className="sub-menu">{/* < a href="/site/prototype/index.php">Наши услуги</a> */}
+          {/* <li><a href="/">О компании</a></li> */}
+          <li className="sub-menu">{/* < a href="/">Наши услуги</a> */}
             <ul className="submenu">
               <li><a>Экскурсионное обслуживание</a></li>
               <li><a>Визовая поддержка</a></li>
@@ -72,7 +69,7 @@ export function HeadFC(): React.JSX.Element {
             </ul>
           </li>
 
-          {/* <!-- <li><a href="/site/prototype/index.php">Ваши выгоды</a></li><li><a href="/site/prototype/index.php">Спецпредложения</a></li><li><a href="/site/prototype/index.php">Блог</a></li><li><a href="/site/prototype/index.php">Контакты</a></li> --> */}
+          {/* <!-- <li><a href="/">Ваши выгоды</a></li><li><a href="/">Спецпредложения</a></li><li><a href="/">Блог</a></li><li><a href="/">Контакты</a></li> --> */}
         </ul>
       </nav >
       <div className="search">
@@ -92,7 +89,7 @@ export function HeadFC(): React.JSX.Element {
         <h2>Визовая поддержка для иностранных граждан</h2>
       </hgroup>
       <div>
-        {/* <!-- <a href="/site/prototype/index.php">Получить консультацию</a> -->  */}
+        {/* <!-- <a href="/">Получить консультацию</a> -->  */}
       </div>
     </div>
 
