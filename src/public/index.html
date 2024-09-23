@@ -17,7 +17,7 @@
 	<!--[if lte IE 10]><link href="/site/prototype/css/ie.css" rel="stylesheet" type='text/css' /><![endif]-->
 	<!--[if lte IE 8]><link href="/site/prototype/css/ie8.css" rel="stylesheet" type='text/css' /><![endif]-->
 	<!--[if IE 7]><link rel="stylesheet" href="/cssauthor/style/ie7.css" type='text/css' /><![endif]-->
-			<meta http-equiv= "X-UA-Compatible" content="IE-edge">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <!-- <script src="/site/prototype/js/ie.js"></script>
     		<script src="/site/prototype/js/respond.js"></script> -->
 		<!-- [if lte IE8]>
@@ -27,12 +27,30 @@
 </head>
 <body id="page-01">
 <u><a href='https://54seo.ru/'>Верснуться на сайт</a></u>
+
 	<header class="header">
   <!-- php include ("header.php" ); ?> -->
+
 	</header>
+  <script>
+    // Загрузка HTML-кода из файла
+    fetch('./header.html')
+      .then(response => {
+        /* if (!response.ok) {
+          throw new Error('Network response was not ok ' + response.statusText);
+        } */
+        return response.text(); // Преобразование ответа в текст
+      })
+      .then(data => {
+        document.querySelector('header.header').innerHTML = data; // Вставка загруженного HTML в элемент
+      })
+    // .catch(error => console.error('Error loading the HTML file:', error)); // Обработка ошибок
+  </script>
 	<div class="content">
     <!-- < ?php include ("content.php" ); ? > -->
+
 	</div>
+
 	<div class="aside">
     <!-- < ?php include ("aside.php" ); ? > -->
 	</div>
@@ -40,4 +58,3 @@
     <!-- < ?php include ("footer.php" ); ? > -->
 	</footer>
 </body>
-

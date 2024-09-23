@@ -7,8 +7,19 @@ const BundleTracker = require('webpack-bundle-tracker');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const ESLintPlugin = require('eslint-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
+const SpriteLoaderPlugin = require('svg-sprite-loader/plugin');
+const glob = require('glob');
 // const CopyPlugin = require("copy-webpack-plugin");
+// const htmlFiles = glob.sync('./src/public/*.html').map(file => {
+// const htmlFiles = glob.sync('./src/public/*.{html,}').map(file => {
+//   return new HtmlWebpackPlugin({
+//     template: file,
+//     filename: path.basename(file), // имя выходного файла
+//     minify: {
+//       collapseWhitespace: false
+//     }
+//   });
+// });
 
 module.exports = {
   entry: './src/index.ts',
@@ -94,6 +105,8 @@ module.exports = {
         collapseWhitespace: false
       }
     }),
+
+    // ...htmlFiles,
     new webpack.SourceMapDevToolPlugin({
       test: /\.tsx?$/,
       filename: './dist/maps/[file].map.[query]',
