@@ -1,5 +1,7 @@
 @media screen and (max-width: 1260px) {
-
+	hgroup{
+		background: rgb(0 0 0 / 18%);
+	}
 	.topnav nav ul li{margin:0px 1% 18px 1%;}
 	.search{min-width: 50px; width: 8.497%; max-width: 110px;}
 
@@ -69,7 +71,10 @@
 	/* The footer maps */
 	.footer .maps div.text-maps{max-height: none;width: revert;}
 
-	.maps div p {columns: 194px 2;width: inherit;}
+																																																																																																					.maps div p {
+																																																																																																						columns: initial;
+																																																																																																						width: calc(98.5% - 3.25px);
+																																																																																																					}
 	.maps div#maps { min-width: 300px; width: auto;}
 }
 
@@ -119,6 +124,10 @@
 }
 
 @media screen and (max-width: 795px) {
+	#top{
+		height: auto;
+    display: inline-block;
+	}
 	.question {width:46.398%;}
 
 	/* top manu */
@@ -153,7 +162,7 @@
 	.topnav nav{width:53.294%;}
 	.topnav +.title > div{ height: inherit; margin-top: 10px;}
 	.content #menu {padding-top:5px;	}
-	.content #menu ul.menu {display:inline-block;text-align:center;width: inherit;}
+	.content #menu ul.menu {display:inline-block;text-align:center;}
 	.content #menu ul.menu li {
 		min-width: 110px;
 		display: inline-block;
@@ -183,7 +192,7 @@
 	.aside .bonus ul li{width:265px;padding-left:4px;padding-right:4px;text-align: center;float: none;display: inline-block;}
 
     /* About company */
-    #kompaniya div.figcaption{width:inherit;left: auto;}
+    #kompaniya div.figcaption{width:inherit;left: auto; margin: 0 auto;}
     /* Our trusted */
     .confidence div.logo {
     width: auto;
@@ -196,24 +205,43 @@
 
 
     /* Our advantagas */
-	#utp > ul {display: inline-block;width: 100%;height: auto;text-align: center;}
+    #utp>ul {
+      display: inline-block;
+      width: 98%;
+      height: auto;
+      text-align: center;
+      max-width: calc(100% - 11.56px);
+    }
 	#utp>ul>li {
-		width: auto;
-		margin: 5% 3%;
+    /* width: 100%;*/
+		margin: 5% 0 5% 3%;
 		display: inline-block;
 		float: inherit;
 	}
 }
 
 @media screen and (max-width: 783px) {
+	
+	#top .top-menu #top-left{min-width: 301px;}
 	.maps{ height:auto; padding-bottom: 5%; display: inline-block; }
 	.maps div#maps {display:none;}
-	.footer .maps div.text-maps {padding-left: 1%;display: inline-block;width: 100%;max-width: none;}
+  .footer .maps div.text-maps {
+    padding-left: 3%;
+    display: inline-block;
+    width: 97%;
+    max-width: calc(98.5% - 3.25px);
+    min-width: initial;
+    margin: 0 auto;
+  }
 
 	.footer .maps div.text-maps>h2:first-child {
 		text-align: center;
 	}
-	.maps div p {columns: 0.4em 2; width: inherit;}
+  .maps div p {
+    columns: 0.4em 2;
+    width: calc(98.5% - 23.86px);
+  }
+	
 
 }
 
@@ -262,10 +290,94 @@
 	.aside .news-block>ul>Li figcaption p {
 		text-align: left;
 	}
-
+	#kompaniya div.figcaption{    left: initial;
+    margin: 0 auto;}
+	#utp>ul>li{width: 35%;}
+	.question {width: initial;}
+	.question+a{
+			margin: 0 auto;
+			float: none;
+			clear: both;
+	}
+	#utp ul li,
+	#utp ul li span{
+	width: calc(100% - 25px)
+	}
 }
+
 @media screen and (max-width: 500px) {
+	
+	#top .top-menu div#top-left {
+			min-width: 300px;
+			margin: 0 auto;
+			float: none;
+			clear: both;
+	}
+	#top .top-menu #top-left + div{width: 100%; max-width:200px; text-align: center;}
+	.title hgroup h1{font-size: 2em;}
+	.title hgroup>h2, .title hgroup h2+h2{font-size: 1.2em;}
 	.aside .bonus >div >ul {width: inherit; min-height: 944px; text-align: center;}
 	.aside .bonus >div >ul >li { display: inline-block; float: none; clear: both;}
+	
+	
+	.content #menu ul.menu{
+		width:calc(100% - 11.6px);
+	}
+	/* #utp>ul>li {width: 100%};*/ 
+	#utp ul li{margin-left: initial; margin-right: initial;}
+	.other ol li.n01, .other ol li.n02, .other ol li.n03, .other ol li.n04,
+	#utp ul li span+span+span,
+	.maps div p, 
+	.figcaption h3+div p
+	{
+		font-size: 0.7em;
+	}
+	.maps div p{
+		columns: initial;
+	}
+	#utp ul li span:first-of-type{
+		font-weight: 700;
+	}
+	div.other h2, #utp h2{
+		margin-bottom: 10px;
+	}
+	
 
+	.work ul > li[class^='n0']:first-child,
+	.work ul > li[class^='n0']{
+		height:215px;
+		background-size: 50px auto;
+		margin-right: initial;
+		margin-left: initial;
+		    min-width: 136px;
+    max-width: 160px;
+	}
+	.work ul li h3{
+ margin-top: 122px;
+ font-size: 0.8em;
+	}
+	.footer .maps div.text-maps{max-width: calc(98.5% - 9.25px)}
+}
+
+@media screen and (max-width: 400px) {
+	#top .top-menu #top-left + div,
+	#top .top-menu #top-right {max-width: initial;
+		margin: 0 auto;
+    width: 200px;
+    float: none;
+    clear: both;}
+	#top .top-menu #top-left + div div,
+	#top .top-menu #top-right div{float: none; clear: both;}
+	#top .top-menu #top-right div {float: left; clear: none;}
+	.menu-footer, .bottom-center{float: none; clear: both;     width: calc(100% - 58%);}
+	.bottom-center{padding-top: 0;     display: inline-block;}
+	.bottom-center .menu-footer:first-of-type ul{
+		margin-right: 9px;
+	}
+	.menu-footer{
+		display: inline-block;
+		min-width: 170px;
+	}
+	.bottom-right{width: 142px; padding-top: 0;}
+	.bottom-right ul li{float:none; display: inline-block;}
 }

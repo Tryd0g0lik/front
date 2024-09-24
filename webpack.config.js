@@ -155,7 +155,8 @@ module.exports = {
     ],
     hot: true, // Включение горячей перезагрузки
     liveReload: true, // Включение live-reload
-
+    host: '0.0.0.0',
+    port: 8080,
     compress: true,
     historyApiFallback: true
     // open: true, // Автоматическое открытие браузера

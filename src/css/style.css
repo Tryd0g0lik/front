@@ -373,7 +373,7 @@ cursor:pointer;
     float: none; }
 .content #menu{width: inherit;max-width: 1599px;margin: 0 auto;background-color:#191919;height: 74px;padding-top:43px;padding-left: 5px;padding-right: 5px;margin-right: 0;}
 	#content-menu{width: 100%; max-width: 1277px; margin: 0 auto;}
-.content #menu ul.menu{display:table-row;margin:0 auto;width:99,060%;max-width:1265px;height: auto;padding-left: 12px;overflow:hidden;}
+.content #menu ul.menu{display:table-row;margin:0 auto;width:99.060%;max-width:1265px;height: auto;padding-left: 12px;overflow:hidden;}
 .content #menu ul.menu li{display:table-cell;  margin:0; min-width:157px; width: 12.648%;  text-align:center;}
 
 
@@ -528,7 +528,7 @@ cursor:pointer;
 /* ----------------- figure	kompaniya ----------------- */
 .work+div{width:100%; max-width:1277px; margin:0 auto; margin-bottom:200px;}
 .work+div figure{margin-top: 78px;}
-	div.figcaption{position: absolute; width: 53.71%; top: 83px; border: 0; box-shadow: 0px 3px 10px #666; left: 36.5%; min-width: 300px; max-width: 685.875px; padding-top: 63px; padding-left: 9.074%; background: #fff;     z-index: 10000000000000000; }
+	div.figcaption{position: absolute; width: 53.71%; top: 83px; border: 0; box-shadow: 0px 3px 10px #666; left: 36.5%; min-width: 230px; max-width: 685.875px; padding-top: 63px; padding-left: 9.074%; background: #fff;     z-index: 10000000000000000; }
 .figcaption h3, .other h2, .other span, .other h2, .aside h2, #utp h2, .maps div:first-of-type h2 {text-transform:uppercase; margin-bottom:32px;}
 .figcaption h3,
 .figcaption h3+div,
@@ -602,7 +602,8 @@ div.other ol .n01 {
 #utp ul li {
   display: inline-block;
   float: left;
-    width: 25%;}
+  width: 25%;
+  }
 #utp span{font-size:16px; margin-bottom:24px; display: inherit;}
 #utp span:last-of-type{ margin-bottom:0;}
 #utp span+span{font-size:60px; color:#ff0c00; text-shadow:1px 1px 2px #000; clear:both; float:none;}
@@ -636,7 +637,7 @@ div.other ol .n01 {
   /* vertical-align: top; */
 }
 
-.aside .bonus ul li.n01:hover: {
+.aside .bonus ul li.n01:hover {
   background-image: url("../img/time-hover-bonus.gif");
   background-repeat: no-repeat;
 }
@@ -965,7 +966,7 @@ div.other ol .n01 {
 
 /* ----------------- bottom center ----------------- */
 .bottom-center{ width:53.876%;    max-width: 688px; float: left; padding-top: 80px;}
-	.menu-footer{min-width:230px; width:49.85465%; max-width:343px; float: left;}
+	.menu-footer{min-width:205px; width:49.85465%; max-width:343px; float: left;}
 		.bottom-center .menu-footer:first-of-type ul{    margin-right: 50px;}
 	.menu-footer ul{ float:right;}
 	.menu-footer ul li{margin-bottom: 8px;     line-height: 1.5;}
