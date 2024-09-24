@@ -105,6 +105,11 @@ module.exports = {
         { from: "src\\img\\webmani.jpg", to: "content" },
         { from: "src\\img\\qiwi.jpg", to: "content" },
         { from: "src\\img\\komp.jpg", to: "content" },
+        { from: "src\\public\\manifest.json", to: './' },
+        { from: "src\\public\\favicon.ico", to: "./" },
+        { from: "src\\public\\logo192.png", to: "./" },
+        { from: "src\\public\\logo512.png", to: "./" },
+
       ],
     }),
     new SpriteLoaderPlugin(), // svg
