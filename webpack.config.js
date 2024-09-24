@@ -132,6 +132,10 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'styles/[name].css'
     }),
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+    }),
   ],
   watchOptions: {
     ignored: [
