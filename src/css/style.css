@@ -289,6 +289,7 @@ cursor:pointer;
 		padding-right: 14px;
 	}
 
+	.topnav nav ul li.sub-menu active,
 	.topnav nav ul li.sub-menu:hover,
 	.topnav nav ul li.sub-menu a:hover {
 		background-image: url("../img/upnav-hover.gif");
@@ -324,6 +325,7 @@ cursor:pointer;
   	}
 	#top-left #selectItem option.selectItem-sity:hover, .topnav nav ul li .submenu a:hover{color:#ec2b22;}
 	#top-left option:hover{background-color:none; display:block;}
+	nav{display: none;}
 /* ----------------- search ----------------- */
 	.search{float: right; margin-top: 31px; min-width:50px; width:8.614%; max-width:110px;}
 	#search {float:left;}
