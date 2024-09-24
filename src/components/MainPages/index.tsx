@@ -2,9 +2,11 @@ import React from 'react';
 import { HeadFC } from '../parts/Header';
 import { FooterFC } from '../parts/Footer';
 import { ContentFC } from '../parts/Content';
+import "../../css/nul-stile.css";
 import "../../css/medium.css";
 import "../../css/ie.css";
 import "../../css/ie8.css";
+
 
 export function PagesFC(): React.JSX.Element {
   return (<>

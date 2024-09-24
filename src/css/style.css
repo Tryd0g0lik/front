@@ -472,6 +472,7 @@ cursor:pointer;
   font-family: PTSansBold;
   font-size: 30px;
   padding-top: 102px;
+  margin: 0;
 }
 
 .work  ul {    display: block; margin-top: 173px; width:100%; max-width: 1205px; height: 250px; margin: 0 auto;}

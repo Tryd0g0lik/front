@@ -46,10 +46,10 @@ export function HeadFC(): React.JSX.Element {
                 <option className="selectItem-lang" id="us">US</option>
               </select>
             </form>
-            <ul>
+            {/* <ul>
               <li><a href="/" id="ru">RU</a></li>
               <li><a href="/" id="us">US</a></li>
-            </ul>
+            </ul> */}
           </div >
 
         </div >
