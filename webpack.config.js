@@ -97,7 +97,7 @@ module.exports = {
     }),
     new CopyPlugin({
       patterns: [
-        { from: "src\\components\\parts\\content", to: "content" },
+        { from: "src/components/parts/content", to: "content" },
         { from: "src\\img\\visa.jpg", to: "content" },
         { from: "src\\img\\sber-bottom.jpg", to: "content" },
         { from: "src\\img\\master-c.jpg", to: "content" },

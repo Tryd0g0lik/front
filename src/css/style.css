@@ -298,8 +298,8 @@ cursor:pointer;
 	}
 	.topnav nav ul li.sub-menu li a:hover{ background-image:none;}
 
-	.topnav nav ul li.sub-menu .submenu {display:none; background-color: #fff; top: 32px; left: 8px; width: 239px; padding-top: 24px; padding-left: 5px; position: absolute; padding-bottom: 22px;}
-	.topnav nav ul li.sub-menu:hover .submenu, .topnav nav ul li.sub-menu .submenu:hover, .topnav nav ul li.sub-menu .sub-menu li:hover, topnav nav ul li.sub-menu .sub-menu li a:hover {display:block; z-index:10000000000000000000;}
+	.topnav nav ul li.sub-menu .submenu {display:none; background-color: #fff; top: 15px; left: 8px; width: 239px; padding-top: 24px; padding-left: 5px; position: absolute; padding-bottom: 22px;}
+	.topnav nav ul li.sub-menu:hover .submenu, .topnav nav ul li.sub-menu .submenu:hover, .topnav nav ul li.sub-menu .sub-menu li:hover, topnav nav ul li.sub-menu .sub-menu li a:hover {display:block; z-index:10;}
 
 
        	.topnav nav ul li a {
