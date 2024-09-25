@@ -19,7 +19,7 @@
   "scripts": {
     "lint": "eslint . --ext jsx,ts,tsx",
     "cssstyle": "npx tailwindcss -i ./moneys/src/styles/style.css -o ./moneys/src/account/output.css --watch",
-    "build:front": "webpack --mode=development --config webpack.config.js",
+    "build:front": "webpack --mode=production --config webpack.config.js",
     "watchs": "webpack --watch --mode=development --config ./webpack.config.js",
     "server:front": "webpack server --mode=development  --config webpack.config.js",
     "lint:write": "eslint --debug src/ --fix",
