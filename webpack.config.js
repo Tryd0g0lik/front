@@ -25,7 +25,7 @@ module.exports = {
   entry: './src/index.ts',
   mode: 'none',
   output: {
-    path: path.resolve(__dirname, './dist'), // '../static'
+    path: path.resolve(__dirname, './dist/sripts'), // '../static'
     filename: 'main-[id]-[hash].js',
     publicPath: '/',
     clean: true,
