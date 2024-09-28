@@ -1,5 +1,5 @@
 FROM node:18
-WORKDIR /app
+WORKDIR ./app
 RUN npm cache clean --force
 RUN npm install -g npm@8.19.4
 COPY ./package*.json ./
